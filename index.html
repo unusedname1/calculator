@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Calculator</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="calculator">
-            <div class="title">Copyright © 2022 FlyingSnail</div>
-            <div class="screen">
-                <div class="equation">1+1=2</div>
-                <div class="input">2</div>
-            </div>
-            <div class="buttons">
-                <div class="general">
-                    <div class="misc btn clear">C</div>
-                    <div class="misc btn sign">+/-</div>
-                    <div class="misc btn percent">%</div>
-                    <div class="btn seven">7</div>
-                    <div class="btn eight">8</div>
-                    <div class="btn nine">9</div>
-                    <div class="btn four">4</div>
-                    <div class="btn five">5</div>
-                    <div class="btn six">6</div>
-                    <div class="btn one">1</div>
-                    <div class="btn two">2</div>
-                    <div class="btn three">3</div>
-                    <div class="btn zero">0</div>
-                    <div class="btn period">.</div>
-                    <div class="btn backspace"><</div>
-                </div>
-                <div class="operators">
-                    <div class="btn divide">÷</div>
-                    <div class="btn multiply">×</div>
-                    <div class="btn subtract">-</div>
-                    <div class="btn add">+</div>
-                    <div class="btn equal">=</div>
-                </div>
-            </div>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="title">Copyright © 2022 FlyingSnail</div>
+        <div class="screen">
+            <div class="equation"></div>
+            <div class="input"></div>
         </div>
-    </body>
+        <div class="buttons">
+            <div class="misc btn" id="clear">C</div>
+            <div class="misc btn" id="sign">+/-</div>
+            <div class="misc btn" id="percent">%</div>
+
+            <div class="operator btn" id="divide">÷</div>
+
+            <div class="btn" id="seven">7</div>
+            <div class="btn" id="eight">8</div>
+            <div class="btn" id="nine">9</div>
+
+            <div class="operator btn" id="multiply">×</div>
+
+            <div class="btn" id="four">4</div>
+            <div class="btn" id="five">5</div>
+            <div class="btn" id="six">6</div>
+           
+            <div class="operator btn" id="subtract">-</div>
+
+            <div class="btn" id="one">1</div>
+            <div class="btn" id="two">2</div>
+            <div class="btn" id="three">3</div>
+
+            <div class="operator btn" id="add">+</div>
+
+            <div class="btn" id="zero">0</div>
+            <div class="btn" id="period">•</div>
+            <div class="btn" id="backspace">⌫</div>
+
+            <div class="operator btn" id="equal">=</div>
+        </div>
+    </div>
+</body>
+
 </html>
